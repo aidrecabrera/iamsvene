@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .sveneborder {
+    @apply h-full border border-svene rounded-lg mb-5;
+  }
+}
 html {
   background-color: black;
   color: #B7AB98;

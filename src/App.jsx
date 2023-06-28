@@ -10,8 +10,8 @@ export class App extends Component {
       <>
         <div className="h-screen">
           <div className="flex gap-3 p-5 h-full">
-            <Content className="" />
-            <div className="flex flex-col grow gap-3">
+            <Content />
+            <div className="flex flex-col gap-3 w-1/12">
               <Sidebar />
               <SveneLogo />
             </div>
