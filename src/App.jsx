@@ -12,7 +12,7 @@ export class App extends Component {
           <div className="flex gap-3 p-5 h-full">
             <Content />
             <div className="flex flex-col gap-3 w-1/12">
-              <Sidebar />
+              <Sidebar className="" />
               <SveneLogo />
             </div>
           </div>

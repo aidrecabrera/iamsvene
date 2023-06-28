@@ -1,13 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=League+Gothic&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
   .sveneborder {
-    @apply h-full border border-svene rounded-lg mb-5;
+    @apply border border-svene rounded-lg;
   }
 }
+
 html {
   background-color: black;
   color: #B7AB98;
+}
+
+body {
+  scrollbar-width: none; 
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Hide the scrollbar for WebKit-based browsers */
+::-webkit-scrollbar {
+  display: none;
 }
