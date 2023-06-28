@@ -3,10 +3,10 @@ import React, { Component } from "react";
 export class SveneWho extends Component {
   render() {
     return (
-      <div className=" sveneborder p-40">
+      <div className=" sveneborder p-40 mb-5">
         <div>
           <h1 className="font-semibold font-inter tracking-widest">
-            Vaguely, Who am I?
+            VAGUELY, WHO AM I?
           </h1>
           <p className=" font-inter font-bold text-8xl leading-tight tracking-tighter">
             I’m an <span className="text-red-700">autodidact</span> with a<br></br> passion in fields such as technology,
