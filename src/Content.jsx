@@ -3,6 +3,7 @@ import "./index.css"
 import SveneIntroduction from "./SveneIntroduction.jsx";
 import SveneWho from "./SveneWho.jsx";
 import SveneTouched from "./SveneTouched.jsx";
+import SveneWhen from "./SveneWhen.jsx"
 export class Content extends Component {
   render() {
     return (
@@ -10,6 +11,7 @@ export class Content extends Component {
         <SveneIntroduction />
         <SveneWho/>
         <SveneTouched />
+        <SveneWhen />
       </div>
     );
   }

@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export class SveneTouched extends Component {
   render() {
     const handleClick = () => {
-      window.open('https://www.fb.com', '_blank');
+      window.open('https://github.com/aidrecabrera', '_blank');
     };
     return (
       <div className="sveneborder pt-20 pb-20 mb-5">
@@ -13,7 +13,7 @@ export class SveneTouched extends Component {
           </h1>
         </div>
         <div className="flex flex-col tracking-wider font-inter">
-          <div className="flex flex-row justify-between border border-svene pl-40 pr-40 hover:bg-svene hover:text-black transition-colors duration-500">
+          <div className="flex flex-row justify-between border border-svene pl-40 pr-40 hover:bg-svene hover:text-black transition-colors duration-500  pt-5">
             <h1 className="font-bold text-8xl leading-tight tracking-tighter">
               DEVELOPMENT
             </h1>
@@ -25,7 +25,7 @@ export class SveneTouched extends Component {
               </p>
             </div>
           </div>
-          <div className="flex flex-row justify-between border border-svene pl-40 pr-40 hover:bg-svene hover:text-black transition-colors duration-500">
+          <div className="flex flex-row justify-between border border-svene pl-40 pr-40 hover:bg-svene hover:text-black transition-colors duration-500 pt-5">
             <h1 className="font-bold text-8xl leading-tight tracking-tighter">
               WRITING
             </h1>
@@ -35,7 +35,7 @@ export class SveneTouched extends Component {
               </p>
             </div>
           </div>
-          <div className="flex flex-row justify-between border border-svene pl-40 pr-40 hover:bg-svene hover:text-black transition-colors duration-500">
+          <div className="flex flex-row justify-between border border-svene pl-40 pr-40 hover:bg-svene hover:text-black transition-colors duration-500 pt-5">
             <h1 className="font-bold text-8xl leading-tight tracking-tighter">
               LANGUAGE
             </h1>
